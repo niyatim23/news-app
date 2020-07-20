@@ -6,19 +6,19 @@ As soon as you open the app, the weather summary card of the current location of
 The list of news is to be fetched from the Guardians API.
 
 ### Home Screen ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/home.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/home.jpg?raw=true)
 
 ### Headlines ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/headlines.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/headlines.jpg?raw=true)
 
 ### Trends ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/trends.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/trends.jpg?raw=true)
 
 ### Bookmarks ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/bookmarks.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/bookmarks.jpg?raw=true)
 
 ### Twitter Intent ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/twitter%20intent.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/twitter%20intent.jpg?raw=true)
 
 ### Bookmarked Articles ###
-![alt text](https://github.com/niyatim23/news-app/blob/master/images/bookmarked%20headlines.png?raw=true)
+![alt text](https://github.com/niyatim23/news-app/blob/master/images/bookmarked%20headlines.jpg?raw=true)
