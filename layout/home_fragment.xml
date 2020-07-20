@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_swiperefresh_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/weather"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/weather_rel_layout"
+        android:layout_height="140dp" >
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp" />
+
+        <TextView
+            android:id="@+id/weather_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@+id/temperature"
+            android:layout_marginRight="50dp" />
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_home"
+        android:layout_below="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
